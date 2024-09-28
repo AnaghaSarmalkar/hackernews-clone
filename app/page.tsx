@@ -1,6 +1,3 @@
-import Image from "next/image";
-import ItemData from "./common/ItemData";
-import { Y18Icon } from "./icons/Y10Icon";
 import Header from "./Header";
 import Body from "./Body";
 
