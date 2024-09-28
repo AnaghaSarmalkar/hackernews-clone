@@ -8,6 +8,10 @@ Currently it takes sometime to load top stories on the UI. Ideally if the API ha
 
 The data in the original website is built using native HTML tables, but I decided to use Flexbox which is a modern CSS layout and provides more responsiveness.
 
+I learnt about using the CSS class `visited` to style links that have been visited. My initial approach was to use a local state to track this, which would've been annoying.
+
+I enjoyed working with Tailwind CSS. It was intuitive and easy to style my components.
+
 ## Tradeoffs and Limitations
 
 ### URL Abbreviation logic
@@ -22,6 +26,9 @@ I did find some edge cases like `https://jackevans.bearblog.dev/refactoring-pyth
 
 Right now I'm storing the data returned by the API in the local state of the component. This works fine since the response only has 500 entries. But for larger data, I'd use some state management library like Redux or MobX.
 To optimize querying and cache the API responses, I'd use `react-query`
+
+### UI Improvements
+If I had more time, I'd definitely add spinner animations for loading screens. I'd also implement a better footer.
 
 ## Getting Started
 
