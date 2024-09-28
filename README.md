@@ -2,7 +2,9 @@
 
 ## Reflection
 
-It took me a while to complete this, but I enjoyed this challenge. Currently it takes sometime to load top stories on the UI. Ideally if the API had pagination, load time would improve. Right now I've implemented pagination on the frontend which shows 30 stories at a time.
+It took me a while to complete this, but I enjoyed this challenge. I used Next.js as the React framework along with Typescript.
+
+Currently it takes sometime to load top stories on the UI. Ideally if the API had pagination, load time would improve. Right now I've implemented pagination on the frontend which shows 30 stories at a time.
 
 The data in the original website is built using native HTML tables, but I decided to use Flexbox which is a modern CSS layout and provides more responsiveness.
 
